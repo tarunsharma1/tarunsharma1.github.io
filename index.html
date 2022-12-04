@@ -80,14 +80,14 @@
 											<div class="inner">
 												<h4>Monitoring of ants in the wild</h4>
 							
-												<p>Ants play a huge role in shaping the ecosystems around us. Here in Southern California, the velvety tree ant through its numerous inter-species interactions and its influence on soil, is a keystone species. However, very little is known about this ecologically dominant ant in the wild. In this ongoing project in collaboration with Sara Beery, Julian Wagner and Joe Parker, we have used an in-house created camera trap positioned at the entrance of an ant nest, along with state of the art computer vision methods to detect, track and monitor activity using minimal human labeling. We track ant activity frequently across multiple days and studied the influence of at environmental factors such as temperature, humidity, time of day on activity levels. We are in the process of expanding monitoring to multiple ant nests and across night time conditions.</p>
+												<p>Ants play a huge role in shaping the ecosystems around us. Here in Southern California, the velvety tree ant through its numerous inter-species interactions and its influence on soil, is a keystone species. However, very little is known about this ecologically dominant ant in the wild. In this ongoing project in collaboration with Sara Beery, Julian Wagner and Joe Parker, we use an in-house created camera trap (made by Will Dickson) positioned at the entrance of an ant nest, along with state of the art computer vision methods to detect, track and monitor activity using minimal human labeling. We tracked ant activity frequently across multiple days and studied the influence of environmental factors such as temperature, humidity, time of day on activity levels. We are in the process of expanding monitoring to multiple ant nests and across night time conditions.</p>
 											</div>
 										</article>
 										<article>
 											<a href="#" class="image"><img src="images/bumblebee-screenshot.png" alt="" /></a>
 											<div class="inner">
 												<h4>Bioacoustics analysis of bumblebees</h4>
-												<p>Bumblebees are very important pollinators for a wide range of plants. Some species of bumblebees are facing rapid declines in population numbers and this could far ranging ecological consequences. Bioacoustics data can provide a wealth of information and serve as a cheap monitoring tool. In this ongoing project in collaboration with Alixandra Prybyla from Edinburgh Bumbleebee Brigade, we are working on using machine learning tools on high quality recordings of bumblebees in the wild, in order to gain insights into species distribution.</p>
+												<p>Bumblebees are very important pollinators for a wide range of flowering plants and agricultural crops. Some species of bumblebees are facing rapid declines in population numbers and this could have far ranging ecological consequences. Bioacoustics data can provide a wealth of information and serve as a cheap monitoring tool. In this ongoing project in collaboration with Alixandra Prybyla from Edinburgh Bumbleebee Brigade, we are working on using machine learning tools on high quality recordings of bumblebees in the wild, in order to gain insights into species distribution.</p>
 											</div>
 										</article>
 										
@@ -217,8 +217,8 @@
 											<a href="#" class="image"><img src="images/3D-fly-head.png" alt="" /></a>
 											<div class="inner">
 												<h4>Fly headtracker using 3D model</h4>
-												<p> 
-												<br><a href="https://www.microsoft.com/en-us/store/p/hands-free-cake-book/9wzdncrdl3tf" target="_self">[App]</a></p>
+												<p>I used mesolens scans of adult Drosophila by Professor Gail McConnell and cropped and reduced the head in order to use it in a rendering software (Blender). I then generated a dataset of rendered images from the top with the head at various orientations. The aim of this project was to see if it is possible to obtain 3D head information from a 2D view of a fly head. I compared two approaches using the rendered images from the 3D model along with the corresponding head coordinates, one where I trained a neural network to predict change in head position based on the optic flow maps calculated from the Nth frame and the first frame (assumes first frame is at 0,0,0), and another where a neural network would take consequetive frames and try to predict the change in head position. Ultimately both approaches showed promise for the rendered dataset but did not generalize to real world conditions because of lack of 3D ground truth for real data.
+												</p>
 											</div>
 										</article>
 									</div>
