@@ -192,10 +192,26 @@
 												<h4>Unsupervised behavior detection in the praying mantis</h4>
 												<p>Project for the Chen Innovator grant. Collected videos of preying mantids in lab. Tracked appendages using deeplabcut and worked on unsupervised detection of behavior using spectogram analysis, wavelet transforms, clustering and watershed algorithm. Compared behavior of adult vs juvenile mantids. This project was in collaboration with Annie Erickson.
 								
-												<br><a href="https://psyarxiv.com/gq4rt/" target="_self">[code]</a></p>
+												<br><a href="" target="_self">[code]</a></p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/3D-fly-head.png" alt="" /></a>
+											<div class="inner">
+												<h4>Fly headtracker using 3D model</h4>
+												<p>I used mesolens scans of adult Drosophila by Professor Gail McConnell and cropped and reduced the head in order to fit it in a rendering software (Blender). I then generated a dataset of rendered images from the top with the head at various orientations. The aim of this project was to see if it is possible to obtain 3D head information from a 2D view of a fly head. I compared two approaches using the rendered images along with the corresponding head coordinates, one where I trained a neural network to predict change in head position based on the optic flow maps calculated from the Nth frame and the first frame (assumes first frame is at 0,0,0), and another where a neural network would take consequetive frames and try to predict the change in head position. Ultimately both approaches showed promise for the rendered dataset but did not generalize to real world conditions because of lack of 3D ground truth.
+												</p>
 											</div>
 										</article>
 										
+										<article>
+											<a href="#" class="image"><img src="images/GQN-screenshot.png" alt="" /></a>
+											<div class="inner">
+												<h4>Analysis of deep neural networks for 3D scene representation</h4>
+												<p> This project was done in collaboration with Erin Koch, Benyamin Haghi, Michaelangelo Caporale and Guruprasad Raghavan. The aim of this project was to gain insights into how neurons in the brain might encode object properties, by examining the representations in 3D scene encoding deep neural networks. We used the GQN model by DeepMind, which is able to take in multiple views of a scene and render the viewpoint of the scene from a query location. We used a range of techniques on the encoded scene representations such as dimensionality reduction, tuning curves, pertubations of individual units and correlation between units to identify encoded properties. Arxiv manuscript in preparation.
+												</p>
+											</div>
+										</article>
 										<article>
 											<a href="#" class="image"><img src="images/sap.png" alt="" /></a>
 											<div class="inner">
@@ -213,23 +229,7 @@
 											</div>
 										</article>
 										
-										<article>
-											<a href="#" class="image"><img src="images/3D-fly-head.png" alt="" /></a>
-											<div class="inner">
-												<h4>Fly headtracker using 3D model</h4>
-												<p>I used mesolens scans of adult Drosophila by Professor Gail McConnell and cropped and reduced the head in order to use it in a rendering software (Blender). I then generated a dataset of rendered images from the top with the head at various orientations. The aim of this project was to see if it is possible to obtain 3D head information from a 2D view of a fly head. I compared two approaches using the rendered images from the 3D model along with the corresponding head coordinates, one where I trained a neural network to predict change in head position based on the optic flow maps calculated from the Nth frame and the first frame (assumes first frame is at 0,0,0), and another where a neural network would take consequetive frames and try to predict the change in head position. Ultimately both approaches showed promise for the rendered dataset but did not generalize to real world conditions because of lack of 3D ground truth for real data.
-												</p>
-											</div>
-										</article>
 										
-										<article>
-											<a href="#" class="image"><img src="images/GQN-screenshot.png" alt="" /></a>
-											<div class="inner">
-												<h4>Analysis of deep neural networks for 3D scene representation</h4>
-												<p> This project was done in collaboration with Erin Koch, Benyamin Haghi, Michaelangelo Caporale and Guruprasad Raghavan. The aim of this project was to gain insights into how neurons in the brain might encode object properties, by examining the representations in 3D scene encoding deep neural networks. We used the GQN model by DeepMind, which is able to take in multiple views of a scene and render the viewpoint of the scene from a query location. We used a range of techniques on the encoded scene representations such as dimensionality reduction, tuning curves, pertubations of individual units and correlation between units to identify encoded properties. Arxiv manuscript in preparation.
-												</p>
-											</div>
-										</article>
 									</div>
 									
 								</div>
